@@ -1,0 +1,27 @@
+{
+  "name": "domtooljs",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup --config",
+    "lint": "eslint --ignore-pattern '/dist' ."
+  },
+  "author": "Vadim Vinogradov <vadim@vinogr.com> (https://github.com/vinogradov)",
+  "license": "MIT",
+  "keywords": [
+    "dom",
+    "tools",
+    "helpers"
+  ],
+  "description": "Some helpful DOM tools",
+  "devDependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/preset-env": "7.3.1",
+    "eslint": "5.13.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.16.0",
+    "rollup": "1.1.2",
+    "rollup-plugin-babel": "4.3.2"
+  },
+  "dependencies": {}
+}
